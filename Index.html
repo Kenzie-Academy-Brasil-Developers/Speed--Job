@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/Global-Styles.css" />
+    <link rel="stylesheet" href="./Styles/Buttons.css" />
+    <link rel="stylesheet" href="./Styles/Cards.css" />
+
+    <title>Speed Job</title>
+  </head>
+  <body>
+    <header>
+      <h1>Speed <span>Job</span></h1>
+
+      <h3>Encontre a vaga que mais se parece com você</h3>
+      <div class="botões">
+        <button class="vagas" id="1">Vagas Frontend</button>
+        <button class="vagas" id="2">Vagas Backend</button>
+      </div>
+    </header>
+    <main class="container">
+      <h3>Frontend Jobs</h3>
+      <div class="front-jobs">
+        <ul class="lista-front"></ul>
+      </div>
+
+      <h3>Backend Jobs</h3>
+      <div class="back-jobs">
+        <ul class="lista-Back"></ul>
+      </div>
+    </main>
+    <script src="./scripts/database.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
